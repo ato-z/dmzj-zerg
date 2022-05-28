@@ -1,0 +1,19 @@
+{
+  "name": "zerg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "serve:start": "pm2 start index.js --name dmzj -i max",
+    "serve:stop": "pm2 stop dmzj"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "pm2": "^5.2.0",
+    "puppeteer": "^13.6.0",
+    "puppeteer-core": "^13.6.0"
+  }
+}
