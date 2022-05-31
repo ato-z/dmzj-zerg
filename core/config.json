@@ -1,5 +1,7 @@
 {
     "domain": "https://m.dmzj.com/",
 
-    "imgDonmain": "https://images.dmzj.com/"
+    "imgDonmain": "https://images.dmzj.com/",
+
+    "headless": true
 }
