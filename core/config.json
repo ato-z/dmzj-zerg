@@ -3,5 +3,5 @@
 
     "imgDonmain": "https://images.dmzj.com/",
 
-    "headless": true
+    "headless": false
 }

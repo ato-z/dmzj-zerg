@@ -49,7 +49,7 @@ const router = {
 }
 
 const port = 3000 // 运行端口
-const ip = '127.0.0.1' // 如需上线，替换成 0.0.0.0 或者线上的ip地址
+const ip = '0.0.0.0' // 如需上线，替换成 0.0.0.0 或者线上的ip地址
 http.createServer( async (req, res) => {
     const { url } = req
     const target = url.split('\?')
