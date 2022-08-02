@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "install:reg": "npm i --save axios jsdom pm2",
-    "install:puppeteer": "npm i --save puppeteer puppeteer-core",
+    "install:puppeteer": "npm i --save puppeteer puppeteer-core pm2",
     "serve:start": "pm2 start index.js --name dmzj -i max",
     "serve:stop": "pm2 stop dmzj"
   },
