@@ -11,12 +11,5 @@
     "serve:stop": "pm2 stop dmzj"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.26.1",
-    "jsdom": "^19.0.0",
-    "pm2": "^5.2.0",
-    "puppeteer": "^13.6.0",
-    "puppeteer-core": "^13.6.0"
-  }
+  "license": "ISC"
 }
