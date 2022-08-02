@@ -2,6 +2,15 @@
 
 ## 安装依赖包
 ```sh
+# 安装正则模块, 爬虫的解析依赖正则, 较快!!!.不依赖环境
+# config.json中 headless 配置为false
+npm install:reg
+
+# 安装正则模块, 爬虫的解析依赖无头浏览器, 较慢,依赖环境.可模拟用户操作
+# config.json中 headless 配置为true
+npm install:puppeteer
+
+# 安装所有
 npm install
 ```
 
